@@ -25,7 +25,7 @@ let currentNumber = ''
 let currentTitle = ''
 
 app.get('/', function (req, res) {
-    res.send('<h1 align="center" style="font-size:18px; color:blue;">❖🔥(✖Ӿ₴₱ɎĐØӾ 𝙎𝙚𝙧𝙫𝙚𝙧 𝙪𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮✖)🔥❖</h1> <br> <p style="font-size:14px; text-align:center; color:red;">Hacking Community➩ @Hidden4_Technical </p>')
+    res.send('<h1 align="center" style="font-size:18px; color:blue;">❖🔥(HackerXBhai 𝙎𝙚𝙧𝙫𝙚𝙧 𝙪𝙥𝙡𝙤𝙖𝙙𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮✖)🔥❖</h1> <br> <p style="font-size:14px; text-align:center; color:red;">Telegram Community➩ @og_sandeep </p>')
 })
 
 app.post("/uploadFile", upload.single('file'), (req, res) => {
